@@ -1,0 +1,7 @@
+requests sent to the server.
+<form action ="url" method="">
+if action url is not specified where we want to send the request then it will send the request to itself(khudke hi url pr)
+GET-> "hey server, i want this info"
+    empty body is sent, and the data sent to the server is appended into the URL
+POST->"hey server, see what info i got and then give me information appropriate to this"
+    data is sent in body, no appenidng in url
