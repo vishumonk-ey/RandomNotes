@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite; ">
+    <form >
+        <!-- method and action dete to vo apna traditional way hojaata and when we preventDefault iss way ko hi stop kiya jaata -->
+        <label for="pdfFile">Upload the pdfFile</label>
+        <input type="file" name="pdfFile" id="pdfFile" accept="application/pdf" required>
+        <!-- accept attribute will allow only specified file inputs jab upload pe click krenge to only specified unko allow karega and wont show any other type file
+         .pdf krke bhi kaam chalta but it will focus only on .pdf extension mtlb it will allow all files with .pdf extension but MIME type is more strict -->
+        <button type="submit">upload</button>
+    </form>
+</body>
+</html>
